@@ -28,6 +28,12 @@ function add3Guest() {
     score()
 }
 
+function reset() {
+    homeScore = 0
+    guestScore = 0
+    score()
+}
+
 function score() {
     guest.textContent = guestScore
     home.textContent = homeScore

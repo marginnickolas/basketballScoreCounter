@@ -3,42 +3,55 @@ body {
   background-color: #1B244A;
 }
 h1 {
-color: #EEEEEE;
-text-align: center;
+  color: #EEEEEE;
+  text-align: center;
 }
 h2 {
-color: #EEEEEE;
-font-size: 40px;
-text-align: center;
+  color: #EEEEEE;
+  font-size: 40px;
+  text-align: center;
 }
 
 .container {
-display: flex;
-justify-content: space-around;
-text-align: center;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
 }
 
 #home-score, #guest-score {
-font-style: normal;
-font-size: 90px;
-line-height: 147px;
-background-color: #080001;
-color: #F94F6D; 
-border-radius: 5px;
-padding-bottom: 20px;
-height: 125px;
-width: 155px;
+  font-style: normal;
+  font-size: 90px;
+  line-height: 147px;
+  background-color: #080001;
+  color: #F94F6D; 
+  border-radius: 5px;
+  padding-bottom: 20px;
+  height: 125px;
+  width: 155px;
 } 
 
 button {
-background-color: #1B244A;
-color: #9AABD8;
-border: 2px solid #9AABD8;
-border-radius: 5px;
-height: 45px;
-width: 45px;
+  cursor: pointer;
+  background-color: #1B244A;
+  color: #9AABD8;
+  border: 2px solid #9AABD8;
+  border-radius: 5px;
+  height: 45px;
+  width: 45px;
 }
-.button-box {
-padding-top: 26px;
 
+#clearbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #080001;
+  color: red;
+  width: 70px;
+  height: 40px;
+  margin: auto;
+  border-style: none;
+}
+
+.button-box {
+  padding-top: 26px;
 }
